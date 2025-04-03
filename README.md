@@ -156,7 +156,7 @@ bbb.jpg
 Training is conducted on 8 GPUs with a global batch size of 64 (8 images per device). The detailed settings and checkpoints are as follows:
 
 | Dataset | Document Type | Pretrain Data | Finetune | Evaluation | mAP | Checkpoint |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | PubLayNet | Academic Paper | DocSynth-1M | [command](assets/script.sh#L3) | [command](assets/script.sh#L7) | 96.9 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_PubLayNet_iccv1968/blob/main/publaynet_best.pt) |
 | DocLayNet | Multiple | DocSynth-1M | [command](assets/script.sh#L11) | [command](assets/script.sh#L15) | 83.4 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_DocLayNet_iccv1968/blob/main/doclaynet_best.pt) |
 | D4LA | Multiple (noisy) | DocSynth-300K | [command](assets/script.sh#L20) | [command](assets/script.sh#L23) | 70.9 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_D4LA_iccv1968/blob/main/d4la_best.pt) |
