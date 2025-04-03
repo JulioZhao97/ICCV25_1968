@@ -155,15 +155,15 @@ bbb.jpg
 
 Training is conducted on 8 GPUs with a global batch size of 64 (8 images per device). The detailed settings and checkpoints are as follows:
 
-| Dataset | Document Type | Pretrain Data | Finetune | Evaluation | mAP | Checkpoint | Examples |
+| Dataset | Document Type | Pretrain Data | Finetune | Evaluation | mAP | Checkpoint |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| PubLayNet | Academic Paper | DocSynth-1M | [command](assets/script.sh#L5) | [command](assets/script.sh#L11) | 96.9 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_PubLayNet_iccv1968/blob/main/publaynet_best.pt) |  |
-| DocLayNet | Multiple | DocSynth-1M | [command](assets/script.sh#L5) | [command](assets/script.sh#L11) | 83.4 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_DocLayNet_iccv1968/blob/main/doclaynet_best.pt) |  |
-| D4LA | Multiple (noisy) | DocSynth-300K | [command](assets/script.sh#L8) | [command](assets/script.sh#L11) | 70.9 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_D4LA_iccv1968/blob/main/d4la_best.pt) |  |
-| PRIMA-LAD | Magazine | DocSynth-1M | [command](assets/script.sh#L14) | [command](assets/script.sh#L20) | 70.3 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_PRIMA-LAD_iccv1968/blob/main/prima_best.pt) |  |
-| TableBank | Table | DocSynth-300K | [command](assets/script.sh#L17) | [command](assets/script.sh#L20) | 97.5 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_TableBank_iccv1968/blob/main/tablebank_best.pt) |  |
-| Cord-v2 | Recipe | DocSynth-300K | [command](assets/script.sh#L17) | [command](assets/script.sh#L20) | 98.4 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_Cord-v2_iccv1968/blob/main/cordv2_best.pt) |  |
-| WTW | Table Cell | DocSynth-1M | [command](assets/script.sh#L17) | [command](assets/script.sh#L20) | 76.1 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_WTW_iccv1968/blob/main/wtw_best.pt) |  |
+| PubLayNet | Academic Paper | DocSynth-1M | [command](assets/script.sh#L3) | [command](assets/script.sh#L7) | 96.9 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_PubLayNet_iccv1968/blob/main/publaynet_best.pt) |
+| DocLayNet | Multiple | DocSynth-1M | [command](assets/script.sh#L11) | [command](assets/script.sh#L15) | 83.4 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_DocLayNet_iccv1968/blob/main/doclaynet_best.pt) |
+| D4LA | Multiple (noisy) | DocSynth-300K | [command](assets/script.sh#L20) | [command](assets/script.sh#L23) | 70.9 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_D4LA_iccv1968/blob/main/d4la_best.pt) |
+| PRIMA-LAD | Magazine | DocSynth-1M | [command](assets/script.sh#L27) | [command](assets/script.sh#L31) | 70.3 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_PRIMA-LAD_iccv1968/blob/main/prima_best.pt) |
+| TableBank | Table | DocSynth-300K | [command](assets/script.sh#L36) | [command](assets/script.sh#L39) | 97.5 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_TableBank_iccv1968/blob/main/tablebank_best.pt) |
+| Cord-v2 | Recipe | DocSynth-300K | [command](assets/script.sh#L44) | [command](assets/script.sh#L47) | 98.4 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_Cord-v2_iccv1968/blob/main/cordv2_best.pt) |
+| WTW | Table Cell | DocSynth-1M | [command](assets/script.sh#L51) | [command](assets/script.sh#L55) | 76.1 | [checkpoint](https://huggingface.co/anonymous-iccv1968/DocLayout_YOLO_WTW_iccv1968/blob/main/wtw_best.pt) |
 
 DocSynth pretrained models can be downloaded from here:
 
